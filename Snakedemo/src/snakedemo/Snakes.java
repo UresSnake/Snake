@@ -63,7 +63,9 @@ public class Snakes extends JPanel {
         this.direction1 = "right";
     }
 
-   
+    public ArrayList<Rectangle> getBody1() {
+        return this.body1;
+    }
 
     public void setDirectiona(String direction) {
         this.direction1 = direction;

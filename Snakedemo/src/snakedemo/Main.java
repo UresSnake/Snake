@@ -40,12 +40,12 @@ public class Main extends JFrame implements KeyListener, ActionListener {
    
 
     public Main() {
-        int winwidth=1000;
-         int winheight=700;
+        int winwidth=500;
+        int winheight=500;
         this.snake = new Snakes(this, winwidth, winheight);
 
         // timer for redrawing the screen
-        Timer timer = new Timer(600, this);
+        Timer timer = new Timer(300, this);
         timer.start();
 
         // timer for drawing apples on the screen
@@ -66,7 +66,7 @@ public class Main extends JFrame implements KeyListener, ActionListener {
         add(this.snake);
 
         setTitle("Snake Game");
-        setSize(1000, 700);
+        setSize(winwidth+25, winheight+50);
         this.addKeyListener(this);
         setLocationRelativeTo(null);
         setVisible(true);
