@@ -77,6 +77,7 @@ public class SnakesTest {
     /**
      * Test of addParta method, of class Snakes.
      */
+    /*Snake eating apple*/
     @Test
     public void testAddParta() {
         System.out.println("addParta");
@@ -90,6 +91,7 @@ public class SnakesTest {
     /**
      * Test of checkColissiona method, of class Snakes.
      */
+     /*Snake not colission with apple */
     @Test
     public void testCheckColissiona() {
         System.out.println("checkColissiona");
@@ -111,6 +113,7 @@ public class SnakesTest {
     /**
      * Test of checkColissiona method, of class Snakes.
      */
+    /*Snake reach the right side of the court*/
     @Test
     public void testCheckColissionaBorder() {
         System.out.println("checkColissionaBorder");
@@ -129,6 +132,7 @@ public class SnakesTest {
     /**
      * Test of moveSnakea method, of class Snakes.
      */
+     /*Snake moves to right and down*/
     @Test
     public void testMoveSnakea() {
         System.out.println("moveSnakea");
