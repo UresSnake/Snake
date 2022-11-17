@@ -18,4 +18,9 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
+    - name: Build the project
+      run: mvn compile
+    - name: Build the unit test
+      run: mvn test
+      
         
